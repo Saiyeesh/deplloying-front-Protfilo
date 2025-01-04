@@ -11,11 +11,21 @@ function Footer() {
     <>
       <div className='footerBack'>
         <h2>Yellarm Saiyeesh</h2>
+        <div className='footerNav'>
+          <ul className='footerUls'>
+            <Link to="/" className='linkLine'><li>About</li></Link>
+            <Link to="skills" className='linkLine'><li>Skills</li></Link>
+            <Link to="/experience" className='linkLine'><li>Experience</li></Link>
+            <Link to="/projects" className='linkLine'><li>Projects</li></Link>
+            <Link to="/education" className='linkLine'><li>Education</li></Link>
+            <Link to="/contact" className='linkLine'><li>Contact</li></Link>
+          </ul>
+        </div>
         <div className='footer-logos'>
-        <a href='' target='_blank'><FaFacebook className='logos'/></a>
-        <a href='' target='_blank'><FaInstagram className='logos'/></a>
-        <a href='https://www.linkedin.com/feed/' target='_blank'><FaLinkedin className='logos'/></a>
-        <a href='' target='_blank'><FaTwitter className='logos'/></a>
+            <FaFacebook className='logos'/>
+            <FaInstagram className='logos'/>
+            <a href='https://www.linkedin.com/feed/' target='_blank'><FaLinkedin className='logos'/></a>
+            <FaTwitter className='logos'/>
         </div>
         <div className='footerLast'>
           <p>@ 2024 Yellarm Saiyeesh. All Rights Reserved</p>

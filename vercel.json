@@ -1,12 +1,12 @@
 {
-  "version":2,
-  "builds": [
-    { "src": "*.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
+<<<<<<< HEAD
+  "rewrites": [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
+=======
+    "rewrites": [
+      {"source": "/(.*)", "destination": "/"}
+    ]
+}
+>>>>>>> 29f591b (vercel changes)
