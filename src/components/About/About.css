@@ -1,0 +1,112 @@
+ .homeBack{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-image:linear-gradient(black, #222a35);
+}
+
+.firstPart h1{
+    font-family: Roboto;
+    font-size: 40px;
+    width: 200px;
+    color: white;
+}
+
+.firstPart h2{
+    font-family: Roboto;
+    font-size: 40px;
+    width: 310px;
+    margin-top: -15px;
+    color: white;
+}
+
+.firstPart h5{
+    font-family: Roboto;
+    font-size: 30px;
+    margin-top: -15px;
+    color: white;
+}
+
+.firstPart p {
+    font-family: Roboto;
+    font-size: 20px;
+    width: 600px;
+    margin-top: -25px;
+    color: #575c66;
+}
+
+.firstPart button{
+    background-image: linear-gradient(rgb(132, 0, 255) 3%, rgb(230, 0, 255) 100%);
+    box-shadow: rgb(31, 38, 52);
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+}
+
+.profileImg{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    border: 2.5px solid rgb(132, 0, 255);
+    box-shadow: 10px 10px 15px rgba(10, 20, 30, 0.5);
+}
+
+.spanTxt{
+    color: rgb(132, 0, 255);
+}
+
+
+
+@media (max-width: 768px) {
+    .homeBack {
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center content */
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .firstPart h1 {
+        font-size: 30px; /* Adjust font size */
+        width: auto; /* Allow text to resize dynamically */
+        text-align: center; /* Center-align text */
+    }
+
+    .firstPart h2 {
+        font-size: 28px; /* Adjust font size */
+        width: auto;
+        margin-top: -10px;
+        text-align: center; /* Center-align text */
+    }
+
+    .firstPart h5 {
+        font-size: 24px; /* Adjust font size */
+        margin-top: -10px;
+        text-align: center; /* Center-align text */
+    }
+
+    .firstPart p {
+        font-size: 16px; /* Adjust font size for readability */
+        width: 90%; /* Reduce width for smaller screens */
+        margin-top: -20px;
+        text-align: center; /* Center-align text */
+        margin-left: 20px;
+    }
+
+    .firstPart button {
+        width: 80%; /* Full-width button for mobile */
+        height: 45px; /* Adjust height for better touch accessibility */
+        font-size: 16px; /* Adjust font size */
+        margin-top: 15px; /* Add spacing */
+        margin-left: 35px;
+    }
+
+    .profileImg {
+        height: 250px; /* Reduce size for smaller screens */
+        width: 250px;
+        margin-top: 20px; /* Add spacing */
+    }
+}

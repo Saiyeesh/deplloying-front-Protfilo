@@ -1,0 +1,85 @@
+.footerBack{
+    background-color: #161f2b;
+    margin-top: -20px;
+}
+
+.footerBack h2{
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgb(133, 76, 230);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footerUls{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerUls li {
+    color: white;
+    font-family: Roboto;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.footerLast{
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.logos{
+    color: white;
+    margin: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .footerBack {
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .footerBack h2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding-top: 5px; /* Reduce padding for a more compact layout */
+    }
+
+    .footerUls {
+        flex-direction: column;/* Stack the list items vertically */
+        align-items: center; /* Center align the list items */
+        margin-top: 15px; /* Add top margin for spacing */
+    }
+
+    .footerUls li {
+        font-size: 16px; /* Adjust font size for readability */
+        margin: 10px 0; /* Adjust vertical margin */
+        text-align: center; /* Ensure text is centered */
+    }
+
+    .footerLast {
+        font-size: 14px; /* Reduce font size for readability */
+        padding-bottom: 15px; /* Adjust padding for spacing */
+    }
+
+    .footer-logos {
+        flex-direction: row; /* Stack logos vertically */
+        margin-top: 10px; /* Add top margin for spacing */
+    }
+
+    .logos {
+        margin: 5px 0; /* Adjust margin for stacked layout */
+        font-size: 18px; /* Adjust logo size for mobile */
+        margin-right: 30px;
+    }
+}
